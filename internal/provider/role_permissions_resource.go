@@ -5,8 +5,9 @@ import (
 	"fmt"
 
 	"strconv"
-	"terraform-provider-superset/internal/client"
 	"time"
+
+	"github.com/platacard/terraform-provider-superset/internal/client"
 
 	"github.com/hashicorp/terraform-plugin-framework/path"
 	"github.com/hashicorp/terraform-plugin-framework/resource"
